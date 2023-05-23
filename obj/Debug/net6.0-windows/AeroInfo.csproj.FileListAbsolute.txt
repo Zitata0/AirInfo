@@ -19,3 +19,8 @@ C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Debug\net6.0-windows\refint\Ae
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Debug\net6.0-windows\AeroInfo.pdb
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Debug\net6.0-windows\AeroInfo.genruntimeconfig.cache
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Debug\net6.0-windows\ref\AeroInfo.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Debug\net6.0-windows\AeroInfo.csproj.CopyComplete

@@ -4,9 +4,39 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AeroInfo"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        ResizeMode="NoResize"
+        Title="AirInfo" Height="450" Width="800" Icon="/plane_takeoff_13263.ico">
+    <Grid Height="450" Width="780">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="CitiesText" Width="120" Height="20" Text="Выберите город:" Grid.RowSpan="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <ComboBox Grid.Row="0" x:Name="CitiesComboBox" SelectionChanged="CitiesSelectionChanged"  Height="20" Width="150" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,0,12,0"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="AirportText" Width="120" Height="20" Text="Выберите аэропорт:" RenderTransformOrigin="1.195,0.439" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="AirportComboBox" SelectionChanged="AirportsSelectionChanged"  Height="20" Width="150" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Focusable="False" IsHitTestVisible="False"/>
+        <Button Grid.Row="0" Grid.Column="2" x:Name="ConfirmSelectButton" Click="ConfirmSelectClick" Width="140" Height="20" VerticalAlignment="Center" TextBlock.FontSize="12" Content="Обновить расписание" HorizontalAlignment="Right" Margin="0,0,10,0" Focusable="False" IsHitTestVisible="False"/>
+
+        <DataGrid Grid.Row="1" x:Name="SchedulesDataGrid" AutoGenerateColumns="False" Margin="10,0,10,40" Grid.ColumnSpan="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Компания" Binding="{Binding Path=AirlineIata}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Номер" Binding="{Binding Path=FlightNumber}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Вылет" Binding="{Binding Path=DepIata}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата вылета" Binding="{Binding Path=DepTime}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Прилет" Binding="{Binding Path=ArrIata}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата прилета" Binding="{Binding Path=ArrTime}" IsReadOnly="True"></DataGridTextColumn>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Path=Status}" IsReadOnly="True"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
