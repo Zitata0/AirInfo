@@ -78,5 +78,10 @@ namespace AeroInfo
             ConfirmSelectButton.Focusable = true;
             ConfirmSelectButton.IsHitTestVisible = true;
         }
+
+        private void SchedulesDataGrid_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
