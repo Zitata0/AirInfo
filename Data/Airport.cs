@@ -37,6 +37,10 @@ namespace AirInfo.Data
         {
             get { return this.id; }
         }
+        public int getId()
+        {
+            return this.id;
+        }
         public string Name
         {
             get { return this.name; }
