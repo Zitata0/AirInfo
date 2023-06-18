@@ -71,6 +71,8 @@ namespace AeroInfo
 
             AirportComboBox.Focusable = true;
             AirportComboBox.IsHitTestVisible = true;
+            ConfirmSelectButton.Focusable = false;
+            ConfirmSelectButton.IsHitTestVisible = false;
         }
 
         private void AirportsSelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
