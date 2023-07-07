@@ -7,7 +7,7 @@
         xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="AirInfo" Height="450" Width="800" Icon="/plane_takeoff_13263.ico">
+        Title="AirInfo" Height="450" Width="800">
     <Grid Height="450" Width="780">
 
         <Grid.RowDefinitions>

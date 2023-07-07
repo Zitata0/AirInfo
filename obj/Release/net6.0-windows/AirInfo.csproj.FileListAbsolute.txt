@@ -34,3 +34,4 @@ C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Release\net6.0-windows\refint\
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Release\net6.0-windows\AirInfo.pdb
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Release\net6.0-windows\AirInfo.genruntimeconfig.cache
 C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Release\net6.0-windows\ref\AirInfo.dll
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\obj\Release\net6.0-windows\AirInfo_Content.g.cs

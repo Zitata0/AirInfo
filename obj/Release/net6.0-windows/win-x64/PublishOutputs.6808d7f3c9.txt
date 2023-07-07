@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Release\net6.0-windows\publish\win-x64\AirInfo.pdb
+C:\Users\Admin\source\repos\AeroInfo\AeroInfo\bin\Release\net6.0-windows\publish\win-x64\AirInfo.exe

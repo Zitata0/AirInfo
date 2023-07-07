@@ -5,10 +5,15 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>plane_takeoff_13263.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="plane_takeoff_13263.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="plane_takeoff_13263.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="plane_takeoff_13263.ico" />
+    <Folder Include="bin\Release\net6.0-windows\" />
   </ItemGroup>
 
 </Project>
